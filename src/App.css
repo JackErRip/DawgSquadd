@@ -36,28 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.headwrap {
-
-  margin: 0;
-  max-width: 1500px;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  
-  
-  }
-  
-  .headimage {
-  
-  max-width: 1500px;
-  width: 100%;
-  
-  }
-  
-  .headtxt {
-  
-  position: absolute;
-  top: 0;
-  
-  }
