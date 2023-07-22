@@ -1,16 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
+    <html>
+      <body>
     <div className="App">
       <header className="App-header">
-     
-        <h1>Dawg Squad</h1>
+      <title>The Dawg Squad Website</title>
+<h1>Ghost Squad</h1>
+<form>
+
+      <input type="button" onclick="window.location.href='https://www.w3docs.com';" value="w3docs" />
+      </form>
+
         <h1>Homepage</h1>
 
       </header>
+
+     
+
     </div>
+    </body>
+  </html>
   );
 }
 
