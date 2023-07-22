@@ -1,18 +1,24 @@
 import './App.css';
+import React from 'react';
 
-function App() {
+const WebsiteOpener = () => {
+  const openWebsite = () => {
+    const url = 'https://dawg-squadd.vercel.app'; // Replace with the desired website URL
+    window.open(url, '_blank');
+  };
+
+
   return (
     <html>
       <body>
     <div className="App">
       <header className="App-header">
       <title>The Dawg Squad Website</title>
-<h1>Ghost Squad</h1>
-<form>
 
-      <input type="button" onclick="window.location.href='https://www.w3docs.com';" value="w3docs" />
-      </form>
 
+    
+      <button className="largeButton" onClick={openWebsite}>Ghost Squad</button>
+      
         <h1>Homepage</h1>
 
       </header>
@@ -25,4 +31,8 @@ function App() {
   );
 }
 
-export default App;
+
+
+
+
+export default WebsiteOpener;
