@@ -4,7 +4,7 @@ import React from 'react';
 const WebsiteOpener = () => {
   const openWebsite = () => {
     const url = 'https://dawg-squadd.vercel.app'; // Replace with the desired website URL
-    window.open(url, '_blank');
+    window.location.href = url;
   };
 
 
