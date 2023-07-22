@@ -132,3 +132,7 @@ img {
   bottom: 40px;
   left: 600px;
 }
+
+@media screen and (max-width: 768px) {
+  /* Add styles for smaller screens */
+}
