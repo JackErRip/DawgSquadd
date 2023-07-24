@@ -30,7 +30,7 @@ const WebsiteOpener = () => {
 </div>
           <div className="text-container">
             
-            <h1>Homepage</h1>
+            <p>Homepage</p>
             </div>
    
           <div className="large-button">

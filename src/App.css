@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -72,23 +74,7 @@
 
 /* Large Button */
 
-.largeButton {
-  font-size: 48px; /* You can adjust the font size to make the button larger */
-  padding: 10px 20px; /* You can adjust the padding to increase the button size */
-  /* Add any other styles you want to customize the appearance of the button */
-  outline: none;
-  font-family: 'Helvetica', sans-serif; /* Change the font family here */
-  font-weight: bold;
-  background-color: transparent; /* Set the background to transparent */
-  border: none; /* Remove the button border */
-  cursor: pointer; /* Show the pointer cursor on hover */
-  color: #808080;
-  position: relative; /* Set the button's position to absolute */
-  top: -435px; /* Adjust the top position to position the button vertically */
-  right: 0px; /* Adjust the right position to position the button horizontally */
-  z-index: 1; /* Set the z-index to place the button above other elements */
-  
-}
+
 
 
 
@@ -112,12 +98,7 @@ h1 {
 }
 
 /* Add styles for the text container */
-.text-container {
-  position: relative;
-  left: 500px; /* Add some space between the image and text */
-  bottom: -200px;
-  
-}
+
 
 img {
     margin-bottom: -90px;
@@ -126,13 +107,54 @@ img {
 }
 
 
-.stupid-string-easter {
-  font-size: 15px;
-  position: absolute;
-  bottom: 40px;
-  left: 600px;
+
+
+
+
+ 
+ @media screen and (min-width: 400px) and (max-width: 1920px)  {
+  /* Add styles for smaller screens */
+  .stupid-string-easter {
+    
+            font-size: 15px;
+            position: absolute;
+            bottom: 40px;
+            left: 600px;
+     }
+
+     .largeButton {
+      font-size: 48px; /* You can adjust the font size to make the button larger */
+      
+      /* Add any other styles you want to customize the appearance of the button */
+      outline: none;
+      font-family: 'Helvetica', sans-serif; /* Change the font family here */
+      font-weight: bold;
+      background-color: transparent; /* Set the background to transparent */
+      border: none; /* Remove the button border */
+      cursor: pointer; /* Show the pointer cursor on hover */
+      color: #808080;
+      position: absolute; /* Set the button's position to absolute */
+      top: 0px; /* Adjust the top position to position the button vertically */
+      right: 720px; /* Adjust the right position to position the button horizontally */
+       /* Set the z-index to place the button above other elements */
+      
+    }
+
+    .text-container {
+      position: absolute;
+      left: 915px; /* Add some space between the image and text */
+      bottom: 845px;
+      
+    }
+
 }
 
-@media screen and (max-width: 768px) {
-  /* Add styles for smaller screens */
+@media screen and (min-width: 400px) and (max-width: 1920px) {
+  .content-container {
+  
+    
+    position: absolute; /* Center the items vertically in the flex container */
+    bottom: 110px;
+    right: 120px;
+  }
 }
