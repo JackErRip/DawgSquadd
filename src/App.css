@@ -83,48 +83,38 @@
   position: relative; /* Set the position to relative for proper z-index stacking */
 }
 
-h1 {
-  margin-top: -600px;
-  margin-right: -350px;
-}
 
-.content-container {
-  
-  position: absolute;
-  display: flex;
-  align-items: center; /* Center the items vertically in the flex container */
-  bottom: 110px;
-  right: 100px;
-}
+
+
 
 /* Add styles for the text container */
 
 
 img {
-    margin-bottom: -90px;
-    position: absolute;
-    right: 500px;
+    display: flexbox;
+    position: relative;
+    
 }
 
 
 
 .content-container {
   
-    
-  position: absolute; /* Center the items vertically in the flex container */
-  bottom: 110px;
-  right: 120px;
+  display: flexbox;  
+  position: relative; /* Center the items vertically in the flex container */
+  bottom: -60vh;
+  right: -8%;
 }
 
 
 
 .stupid-string-easter {
-    margin: 1;
+    
   font-size: 50%;
   position: relative;
   display: flexbox;
-  bottom: -38vh;
-  left: -19%;
+  bottom: -21vh;
+  left: -7%;
 }
 
 .largeButton {
@@ -139,7 +129,7 @@ border: none; /* Remove the button border */
 cursor: pointer; /* Show the pointer cursor on hover */
 color: #808080;
 position: relative; /* Set the button's position to absolute */
-top: -48vh; /* Adjust the top position to position the button vertically */
+top: -45vh; /* Adjust the top position to position the button vertically */
 right: 0%; /* Adjust the right position to position the button horizontally */
 /* Set the z-index to place the button above other elements */
 display: flexbox;
@@ -148,9 +138,10 @@ display: flexbox;
 
 .text-container {
 position: relative;
-left: 0%; /* Add some space between the image and text */
-bottom: 35vh;
+left: 0.3%; /* Add some space between the image and text */
+bottom: 20vh;
 display: flexbox;
+font-size: medium;
 
 
 }

@@ -9,10 +9,12 @@ const WebsiteOpener = () => {
     window.location.href = url;
   };
 
-  const onlineImageUrl = process.env.PUBLIC_URL + '/blueJack.png';
-  const GSLogoUrl = process.env.PUBLIC_URL + 'Ghost Squad Logo.png';
+  const onlineImageUrl = 'https://scontent.fcgy2-2.fna.fbcdn.net/v/t39.30808-6/336098390_1290576248205706_6307620226466032412_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Qtlq3wbzk34AX96vssC&_nc_ht=scontent.fcgy2-2.fna&_nc_e2o=c&oh=00_AfCZIO1CYsYHqHpdlEH4v8WYPIt6xAaSLTjSeTyHOH0mHw&oe=64C0FC90'; // Replace with the URL of the online image
+
   return (
+    
     <div className="App">
+      <body>
       <header className="App-header">
         <title>The Dawg Squad Website</title>
         
@@ -23,8 +25,8 @@ const WebsiteOpener = () => {
           <img
             src={onlineImageUrl}
             alt="Logo of the Dawg Squad website"
-            width="90" // Set the desired width for the small image
-            height="90" // Set the desired height for the small image>
+            width="192" // Set the desired width for the small image
+            height="108" // Set the desired height for the small image>
 
           />
 </div>
@@ -35,8 +37,7 @@ const WebsiteOpener = () => {
    
           <div className="large-button">
           <button className="largeButton" onClick={openWebsite}>
-          <img src={GSLogoUrl} alt="Ghost Squad" width="200" // Set the desired width for the small image
-            height="200" />
+              Ghost Squad
             </button>
            
 
@@ -52,7 +53,7 @@ const WebsiteOpener = () => {
           
 
       </header>
-       
+       </body>
     </div>
   );
 };
