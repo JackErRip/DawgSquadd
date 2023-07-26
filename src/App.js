@@ -45,7 +45,7 @@ const WebsiteOpener = () => {
         
 
           <div className="stupid-string-easter">
-          <p>Website was made from scratch using and made by this guy ---> </p>
+          <p>Website was made from scratch using REACT and made by this guy ---> </p>
 
           </div>
 
