@@ -97,25 +97,35 @@ img {
 }
 
 
+/* Content container position relative */
 
 .content-container {
-  
+  padding: top right bottom left;
   display: flexbox;  
   position: relative; /* Center the items vertically in the flex container */
-  bottom: -60vh;
-  right: -8%;
+  bottom: -55vh;
+  right: -12%;
 }
+
+/* content container position absolute */
+
 
 
 
 .stupid-string-easter {
-    
+  padding: top right bottom left;
   font-size: 50%;
   position: relative;
   display: flexbox;
-  bottom: -21vh;
-  left: -7%;
+  bottom: -16vh;
+  left: -5%;
 }
+
+
+
+
+
+
 
 .largeButton {
 font-size: 48px; /* You can adjust the font size to make the button larger */
@@ -155,4 +165,36 @@ font-size: medium;
 
 @media screen and (min-width: 400px) and (max-width: 1920px) {
   
+}
+
+.ContactPage {
+  position: relative;
+  display: flexbox;
+  bottom: -0.4vh;
+  right: -11%;
+}
+
+.AboutUs {
+  position: relative;
+  display: flexbox;
+  bottom: 3.6vh;
+  right: 11%;
+}
+
+.BlueJackButton {
+  font-size: 48px; /* You can adjust the font size to make the button larger */
+
+/* Add any other styles you want to customize the appearance of the button */
+outline: none;
+font-family: 'Helvetica', sans-serif; /* Change the font family here */
+font-weight: bold;
+background-color: transparent; /* Set the background to transparent */
+border: none; /* Remove the button border */
+cursor: pointer; /* Show the pointer cursor on hover */
+color: #808080;
+position: relative; /* Set the button's position to absolute */
+top: 53.9vh; /* Adjust the top position to position the button vertically */
+right: -12%; /* Adjust the right position to position the button horizontally */
+/* Set the z-index to place the button above other elements */
+display: flexbox;
 }
