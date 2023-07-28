@@ -2,10 +2,9 @@
 
 // SecondPage.js
 import React from 'react';
-import App from './App.js';
-import HomePage from './HomePage.js';
+
 import './App.css';
-import ContactPage from './ContactPage';
+
 
 
 const AboutUs = () => {

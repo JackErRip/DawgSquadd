@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
-import AboutUs from './AboutUs';
-import ContactPage from './ContactPage';
+
 import { Link } from 'react-router-dom';
  
 const HomePage = () => {
