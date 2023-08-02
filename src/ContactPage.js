@@ -1,18 +1,19 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
-import AboutUs from './AboutUs';
-import HomePage from './HomePage';
+
 
 import './App.css';
-
+const backgroundImage = `url('${process.env.PUBLIC_URL}/Contacts.png')`;
+const backgroundStyle = {
+  backgroundImage: backgroundImage,
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+  minHeight: '100vh', // Set a minimum height to make sure the background covers the entire viewport
+  // Add any other custom background-related styles here
+};
 const ContactPage = () => {
     return (
-        <div className="App">
-            <header className="App-Header">
-                <h1>This is the Contact page</h1>
-                <p fontColor="Blue">THIS IS STILL UNDER DEVELOPMENT SO WAIT FOR IDK FEW WEEKS LOL and the programmer is only JackErRip</p>
+        <div className="App" style={backgroundStyle}>
             
-            </header>
         </div>
     );
 };

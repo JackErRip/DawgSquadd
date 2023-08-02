@@ -14,65 +14,31 @@ const HomePage = () => {
     window.location.href = BlueJackUrl;
   }
 
+  const GhostSquadText = process.env.PUBLIC_URL + 'GhostSquad.png';
+
   const onlineImageUrl = process.env.PUBLIC_URL + '/blueJack.png';
   const GSLogoUrl = process.env.PUBLIC_URL + 'Ghost Squad Logo.png';
+
+  const backgroundImage = `url('${process.env.PUBLIC_URL}/HomePage.png')`;
+  const backgroundStyle = {
+    backgroundImage: backgroundImage,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    minHeight: '100vh', // Set a minimum height to make sure the background covers the entire viewport
+    // Add any other custom background-related styles here
+  };
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <title>The Dawg Squad Website</title>
+    <div className="app" style={backgroundStyle}>
         
-       <div className="ContactPage">
         
-        <Link to="/ContactPage">Go to Contacts</Link>
-       </div>
+     
 
-      <div className="AboutUs">
-        <Link to="/AboutUs">Go to About Us</Link>
-      </div>
-
-
-        <div className="content-container">
-
-        
-          <img
-            src={onlineImageUrl}
-            alt="Logo of the Dawg Squad website"
-            width="90" // Set the desired width for the small image
-            height="90" // Set the desired height for the small image>
-
-          />
-</div>
-          <div className="text-container">
             
-            <h1>Homepage</h1>
-            </div>
-   
-          <div className="large-button">
-          <button className="largeButton" onClick={openWebsite}>
-          <img src={GSLogoUrl} alt="Ghost Squad" width="200" // Set the desired width for the small image
-            height="200" />
-            </button>
-           
-
-            </div>
 
         
-
-          <div className="stupid-string-easter">
-          <p>Website was made from scratch using REACT and made by this guy ---> </p>
-
-          </div>
-
-          <div className="BlueJackButton">
-          <button className="largeButton" onClick={BlueJack}>
-          <img src={onlineImageUrl} alt="BlueJack" width="90" // Set the desired width for the small image
-            height="90" />
-            </button>
-          
-        </div>
-
-      </header>
-       
+    
+     
     </div>
   );
 };

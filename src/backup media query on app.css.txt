@@ -1,0 +1,28 @@
+@media (min-width: 1920px) and (min-height: 1080px) {
+  /* HOMEPAGE TEXT */
+.text-container {
+
+  bottom: 18.7vh;
+}
+
+/* Well this is the Website was made... yk */
+.stupid-string-easter {
+ bottom: -28vh;
+ left: -8%;
+}
+
+.BlueJackButton {
+  top: 66vh;
+  left: 10%;
+}
+
+.content-container {
+  opacity: 0;
+}
+
+.App-header {
+min-height: 100vh;
+}
+
+
+}

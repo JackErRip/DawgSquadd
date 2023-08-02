@@ -27,6 +27,10 @@
   color: white;
 }
 
+
+
+
+
 .App-link {
   color: #61dafb;
 }
@@ -106,6 +110,7 @@ img {
   position: relative; /* Center the items vertically in the flex container */
   bottom: -55vh;
   right: -12%;
+  opacity: 0;
 }
 
 /* content container position absolute */
@@ -114,12 +119,15 @@ img {
 
 
 .stupid-string-easter {
-  padding: top right bottom left;
+  
   font-size: 50%;
   position: relative;
   display: flexbox;
   bottom: -16vh;
   left: -5%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Create responsive columns */
+  grid-gap: 20px; /* Gap between grid items */
+  padding: 20px;
 }
 
 
@@ -140,19 +148,26 @@ border: none; /* Remove the button border */
 cursor: pointer; /* Show the pointer cursor on hover */
 color: #808080;
 position: relative; /* Set the button's position to absolute */
-top: -45vh; /* Adjust the top position to position the button vertically */
-right: 0%; /* Adjust the right position to position the button horizontally */
+height: 0vh; /* Adjust the top position to position the button vertically */
+right: 30%; /* Adjust the right position to position the button horizontally */
+top: -45vh;
 /* Set the z-index to place the button above other elements */
 display: flexbox;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Create responsive columns */
+grid-gap: 20px; /* Gap between grid items */
+padding: 20px;
 
 }
 
 .text-container {
 position: relative;
 left: 0.3%; /* Add some space between the image and text */
-bottom: 20vh;
+bottom: 23vh;
 display: flexbox;
 font-size: medium;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Create responsive columns */
+grid-gap: 20px; /* Gap between grid items */
+padding: 20px;
 
 
 }
@@ -171,15 +186,21 @@ font-size: medium;
 .ContactPage {
   position: relative;
   display: flexbox;
-  bottom: -0.4vh;
-  right: -11%;
+  bottom: -8vh;
+  right: -40%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Create responsive columns */
+  grid-gap: 20px; /* Gap between grid items */
+  padding: 20px;
 }
 
 .AboutUs {
   position: relative;
   display: flexbox;
-  bottom: 3.6vh;
-  right: 11%;
+  bottom: 0.5vh;
+  right: 41%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Create responsive columns */
+  grid-gap: 20px; /* Gap between grid items */
+  padding: 20px;
 }
 
 .BlueJackButton {
@@ -194,8 +215,110 @@ border: none; /* Remove the button border */
 cursor: pointer; /* Show the pointer cursor on hover */
 color: #808080;
 position: relative; /* Set the button's position to absolute */
-top: 53.9vh; /* Adjust the top position to position the button vertically */
+top: 0vh; /* Adjust the top position to position the button vertically */
 right: -12%; /* Adjust the right position to position the button horizontally */
 /* Set the z-index to place the button above other elements */
 display: flexbox;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Create responsive columns */
+  grid-gap: 20px; /* Gap between grid items */
+  padding: 20px;;
 }
+
+/* Mobile phones with a width of 1080 pixels (1080p) or smaller */
+@media (max-width: 1080px) {
+  
+.ContactPage {
+  opacity: 0;
+  pointer-events: none;
+  grid-template-columns: 1fr; /* Single column layout by default */
+  gap: 1rem; /* Gap between grid items */
+  padding: 1rem;
+  display: flexbox;
+}
+
+.AboutUs {
+  opacity: 0;
+  pointer-events: none;
+  grid-template-columns: 1fr; /* Single column layout by default */
+  gap: 1rem; /* Gap between grid items */
+  padding: 1rem;
+  display: flexbox;
+}
+
+}
+
+
+.buttonBlueJack {
+
+font-size: 24px; /* You can adjust the font size to make the button larger */
+
+/* Add any other styles you want to customize the appearance of the button */
+outline: none;
+font-family: 'Helvetica', sans-serif; /* Change the font family here */
+font-weight: bold;
+background-color: transparent; /* Set the background to transparent */
+border: none; /* Remove the button border */
+cursor: pointer; /* Show the pointer cursor on hover */
+color: #808080;
+position: relative; /* Set the button's position to absolute */
+height: 0vh; /* Adjust the top position to position the button vertically */
+right: 0%; /* Adjust the right position to position the button horizontally */
+top: 0vh;
+/* Set the z-index to place the button above other elements */
+display: flexbox;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Create responsive columns */
+grid-gap: 20px; /* Gap between grid items */
+padding: 20px;
+
+}
+
+.GhostSquadLogo {
+  display: flexbox;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Create responsive columns */
+grid-gap: 20px; /* Gap between grid items */
+padding: 20px;
+bottom: 62vh;
+right: -2%;
+
+position: relative;
+
+}
+
+
+/* 1080p Monitor GUI FIX */
+@media (min-width: 1920px) and (min-width: 1080px) {
+  .text-container{
+    top: -19vh;
+   
+  }
+  
+.GhostSquadLogo {
+  bottom: 56vh;
+}
+
+.largeButton {
+  top: -42.6vh;
+  right: 25%;
+}
+
+.TopPart {
+position: relative;
+bottom: 100vh;
+right: 11.2%;
+
+
+}
+
+}
+
+.TopPart {
+  display: flexbox;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Create responsive columns */
+grid-gap: 20px; /* Gap between grid items */
+padding: 20px;
+bottom: 81vh;
+right: 12.2%;
+position: relative;
+
+}
+

@@ -8,12 +8,21 @@ import './App.css';
 
 
 const AboutUs = () => {
+
+  const backgroundImage = `url('${process.env.PUBLIC_URL}/AboutUs.png')`;
+const backgroundStyle = {
+  backgroundImage: backgroundImage,
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+  minHeight: '100vh', // Set a minimum height to make sure the background covers the entire viewport
+  // Add any other custom background-related styles here
+};
+
   return (
-    <div className="App">
-      <header className="App-Header">
-      <h1>About Us</h1>
-      <p>This is the content of the About Us.</p>
-      </header>
+    <div className="App" style={backgroundStyle}>
+      
+      
+      
     </div>
   );
 };

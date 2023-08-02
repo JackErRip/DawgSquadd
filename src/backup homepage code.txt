@@ -1,0 +1,63 @@
+
+          <body>
+        <title>The Dawg Squad Website</title>
+        
+       <div className="ContactPage">
+        
+        <Link to="/ContactPage">Go to Contacts</Link>
+       </div>
+
+      <div className="AboutUs">
+        <Link to="/AboutUs">Go to About Us</Link>
+      </div>
+
+
+        <div className="content-container">
+
+        
+          <img
+            src={onlineImageUrl}
+            alt="Logo of the Dawg Squad website"
+            width="90" // Set the desired width for the small image
+            height="90" // Set the desired height for the small image>
+
+          />
+</div>
+          <div className="text-container">
+            
+            <h1>Homepage</h1>
+            </div>
+   
+          <div className="large-button">
+          <button className="largeButton" onClick={openWebsite}>
+          <img src={GSLogoUrl} alt="Ghost Squad" width="96" // Set the desired width for the small image
+            height="96" />
+            </button>
+           
+
+            </div>
+
+        
+
+
+
+          <div className="GhostSquadLogo">
+            <img src={GhostSquadText}
+            alt="Ghost Squad"
+            width="256"
+            height="144" />
+          </div>
+
+
+
+          <div className="stupid-string-easter">
+          <p>Website was made from scratch using REACT and made by this guy ---> </p>
+
+          </div>
+
+          <div className="BlueJackButton">
+          <button className="buttonBlueJack" onClick={BlueJack}>
+          <img src={onlineImageUrl} alt="BlueJack" width="90" // Set the desired width for the small image
+            height="90" />
+            </button>
+          
