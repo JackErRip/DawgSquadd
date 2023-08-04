@@ -1,0 +1,81 @@
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./TitilliumWeb-Bold.ttf') format('truetype');
+  }
+@media (max-width: 1280px) and (max-height: 720px) {
+    .aboutus-header {
+        margin-top: -3%;
+    }
+}
+
+
+
+.aboutus-header {
+    position: relative;
+    margin-top: -2.5%; /* Adjust the value as needed */
+  padding-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.about-us-p {
+    margin-top: -0%;
+}
+
+.about-us {
+   
+ 
+    position: relative;
+    margin-top: 0%; /* Adjust the value as needed */
+  padding-top: 0%;
+    display: flex;
+    align-items: center;
+}
+
+.about-us-header {
+    background-color: rgb(15, 17, 20);
+    border-radius: 20px; 
+    width: 680px;
+    height: 310px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+  margin-top: 10%;
+    
+}
+
+
+
+.credits {
+    position: relative;
+    margin-top: 5%; /* Adjust the value as needed */
+  padding-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.credits-header {
+    background-color: rgb(15, 17, 20);
+    border-radius: 20px; 
+    width: 680px;
+    height: 100px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+    
+}
+
+.credits-font {
+    font-family: 'CustomFont', sans-serif;
+}
+
+
+
+
+
+  

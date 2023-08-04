@@ -1,0 +1,31 @@
+.contact-title {
+    position: relative;
+    margin-top: -2.5%; /* Adjust the value as needed */
+  padding-top: 0%;
+    display: flex;
+    align-items: center;
+}
+
+.contacts {
+    
+}
+
+.discord-logo {
+    transform: translateX(-70%);
+}
+
+.h2-translate {
+    
+    transform: translateY(-160%) translateX(15%);
+}
+
+.contact-translate-y {
+    transform: translateY(-100%);
+}
+
+.discord-contact-background {
+    background-color: rgb(58, 43, 65);
+    border-radius: 20px;
+    margin-top: 10%;
+    height: 230px;
+}

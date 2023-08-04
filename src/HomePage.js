@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
-
+import './Homepage.css';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
  
-const HomePage = () => {
+function HomePage() {
   const openWebsite = () => {
     const url = 'https://dawg-squadd.vercel.app'; // Replace with the desired website URL
     window.location.href = url;
@@ -29,17 +30,27 @@ const HomePage = () => {
   };
  
   return (
-    <div className="app" style={backgroundStyle}>
-        
-        
+    <div className="app">
+  
+        <header className="App-header">
+           
+          <div className="Homepage-text">
+            <header className="Homepage-header">
+<h1 className="H1-translate">its quiet..... 	&nbsp;	&nbsp;	&nbsp;	&nbsp; for now</h1>
+            </header>
+            </div>
+
+          </header>
      
 
             
 
-        
+        <Footer />
     
      
     </div>
+
+    
   );
 };
 export default HomePage;

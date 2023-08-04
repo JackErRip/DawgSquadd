@@ -1,0 +1,23 @@
+.Homepage-text {
+    
+    
+    
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+}
+
+.Homepage-header {
+    background-color: rgb(39, 55, 80);
+    border-radius: 20px; 
+    width: 650px;
+}
+
+.H1-translate {
+    margin-left: 4.5%;
+}

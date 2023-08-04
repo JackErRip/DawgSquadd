@@ -11,7 +11,7 @@ function Navbar() {
     }
      
     return ( 
-       <header>
+       <header className="navbar-header">
           <h3>Ghost Squad</h3>
           <nav ref={navRef}>
             <a href="/Homepage">

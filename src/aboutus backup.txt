@@ -1,0 +1,16 @@
+<p> 
+  The Website show details on all 4 current members
+</p>
+<p>
+  the leader the second in command and ECT.
+</p>
+<p>
+  Special thanks to Dhan for some of the buttons.
+</p>  
+<p>
+  The website was made using REACT and other stuff
+</p> 
+<p> 
+was made in Canva. Ghost Squad is based in the
+Philippines.
+</p>

@@ -15,7 +15,7 @@
 
 }
 
-header {
+.navbar-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,6 +23,7 @@ header {
     padding: 0 2rem;
     background-color: var(--mainColor);
     color: var(--textColor);
+    
 }
 
 nav a{
@@ -48,12 +49,12 @@ header .nav-btn {
 }
 
 @media only screen and (max-width: 1024px){
-    header .nav-btn {
+    .navbar-header .nav-btn {
         visibility: visible;
         opacity: 1;
     }
 
-    header nav{
+    .navbar-header nav{
         position: fixed;
         top: 0;
         left: 0;
@@ -69,7 +70,7 @@ header .nav-btn {
         transform: translateY(-100vh);
     }
 
-    header .responsive_nav{
+    .navbar-header .responsive_nav{
         transform: none;
     }
 
