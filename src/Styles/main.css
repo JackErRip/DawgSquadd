@@ -89,3 +89,9 @@ header .nav-btn {
     }
 
 }
+
+.gs-color {
+    color: var(--textColor);
+    text-decoration: none; /* Remove underline */
+  
+}

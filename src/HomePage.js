@@ -3,8 +3,23 @@ import './App.css';
 import './Homepage.css';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
+import YouTube from 'react-youtube';
+
  
 function HomePage() {
+
+ 
+    const videoId = 'Vg1jcbUMAms';
+  
+    const opts = {
+      width: '768',
+      height: '480', // Adjust the height as needed
+      playerVars: {
+        autoplay: 1, // Autoplay the video
+      },
+    
+    };
+
   const openWebsite = () => {
     const url = 'https://dawg-squadd.vercel.app'; // Replace with the desired website URL
     window.location.href = url;
@@ -36,14 +51,17 @@ function HomePage() {
            
           <div className="Homepage-text">
             <header className="Homepage-header">
-<h1 className="H1-translate">its quiet..... 	&nbsp;	&nbsp;	&nbsp;	&nbsp; for now</h1>
+<h1 className="H1-translate">GHOST SQUAD</h1>
             </header>
             </div>
 
+            <br />
+            <YouTube videoId={videoId} opts={opts} className="youtube-border" />
+           
           </header>
      
 
-            
+          
 
         <Footer />
     

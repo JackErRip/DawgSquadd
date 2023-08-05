@@ -17,13 +17,6 @@ export default function App() {
 <React.Fragment>
     <Navbar/>
 </React.Fragment>
-<head>
-    
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3372873267944362"
-     crossorigin="anonymous"></script>
-
-       </head>
-    
 <BrowserRouter>
 <Routes>
    <Route index element={<HomePage />} />

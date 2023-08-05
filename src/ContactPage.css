@@ -24,8 +24,30 @@
 }
 
 .discord-contact-background {
-    background-color: rgb(58, 43, 65);
+    background-color: rgb(74, 54, 83);
     border-radius: 20px;
     margin-top: 10%;
     height: 230px;
+}
+
+.gmail-logo {
+    transform: translateX(-40%) translateY(30%);
+}
+
+.h2-gmail-translate {
+    transform: translateY(-90%) translateX(15%);
+    font-size: 48px;
+    
+}
+
+.gmail-contact-background {
+    background-color: rgb(88, 67, 39);
+    border-radius: 20px;
+    margin-top: 15%;
+    height: 235px;
+    width: 400px;
+}
+
+.gmail-contact {
+    transform: translateY(-75%);
 }

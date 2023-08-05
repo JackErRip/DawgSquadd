@@ -15,9 +15,14 @@
 .Homepage-header {
     background-color: rgb(39, 55, 80);
     border-radius: 20px; 
-    width: 650px;
+    width: 410px;
 }
 
 .H1-translate {
     margin-left: 4.5%;
+}
+
+.youtube-border {
+    border-radius: 20px; 
+    overflow: hidden;
 }

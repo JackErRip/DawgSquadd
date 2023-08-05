@@ -14,6 +14,7 @@ const backgroundStyle = {
 };
 
 const Discord = process.env.PUBLIC_URL + 'DiscordLogo.png';
+const Gmail = process.env.PUBLIC_URL + 'Gmail-logo.png';
 
 function ContactPage() {
     return (
@@ -25,10 +26,14 @@ function ContactPage() {
             <br />
             <br />
 <div className="contacts">
-            <p>daredevillbvan@gmail.com <br /> 
+  <header className="gmail-contact-background">
+            <img src={Gmail} alt="Gmail Logo" width="192" height="108" className="gmail-logo" /> <h2 className="h2-gmail-translate">Gmail</h2>
+            <p className="gmail-contact">daredevillbvan@gmail.com <br /> 
             
             </p>
-
+            </header>
+<br />
+<br />
             <header className="discord-contact-background">
             <img src={Discord} alt="Discord Logo" width="128" height="128" className="discord-logo" /> <h2 className="h2-translate">DISCORD</h2>
 
