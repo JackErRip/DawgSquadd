@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `cd ghost-squad`
 
-Selects The Foler
+Selects The Folder
 
 ### `npm start`
 
@@ -17,6 +17,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `Username and Password`
+
+Username: **Phoenix**
+Password: **Hendrix**
 
 ### `npm test`
 
