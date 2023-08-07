@@ -1,0 +1,24 @@
+.h1-sign-in-text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -38%;
+    font-size: 175%;
+    padding: 10%;
+}
+
+.sign-in-button {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    text-decoration: none;
+    
+    background-color: #282c34;
+}
+
+.Sign-in-string {
+    color: rgb(255, 255, 255);
+    
+}

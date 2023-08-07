@@ -5,6 +5,7 @@ import React from 'react';
 import './AboutUs.css';
 import './App.css';
 import Footer from './Footer';
+import Navbar from "./Components/Navbar";
 
 
 function AboutUs() {
@@ -20,6 +21,9 @@ const backgroundStyle = {
 
   return (
     <div className="App">
+      <React.Fragment>
+    <Navbar/>
+</React.Fragment>
       <header className="App-header">
 <div className="aboutus-header">
 <h1>About Us</h1>

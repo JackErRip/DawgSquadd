@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import './Homepage.css';
+import './HomePage.css';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import YouTube from 'react-youtube';
-
+import Navbar from "./Components/Navbar";
  
 function HomePage() {
 
@@ -46,7 +46,10 @@ function HomePage() {
  
   return (
     <div className="app">
-  
+      <React.Fragment>
+    <Navbar/>
+</React.Fragment>
+      
         <header className="App-header">
            
           <div className="Homepage-text">

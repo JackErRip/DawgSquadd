@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from './Footer';
 import './ContactPage.css';
 import './App.css';
+import Navbar from "./Components/Navbar";
 
 
 const backgroundImage = `url('${process.env.PUBLIC_URL}/Contact.png')`;
@@ -19,6 +20,9 @@ const Gmail = process.env.PUBLIC_URL + 'Gmail-logo.png';
 function ContactPage() {
     return (
         <div className="App">
+          <React.Fragment>
+    <Navbar/>
+</React.Fragment>
           <header className="App-header">
 <div className="contact-title">
             <h1>Contact Us</h1>
