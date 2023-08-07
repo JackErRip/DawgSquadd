@@ -23,6 +23,8 @@ You may also see any lint errors in the console.
 Username: **Phoenix**
 Password: **Hendrix**
 
+**PLEASE DO NOT LINK THE USERNAME AND PASSWORD, ESPECIALLY YOUR MARK**
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
