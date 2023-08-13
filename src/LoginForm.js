@@ -8,7 +8,7 @@ function LoginForm() {
 
   const handleLogin = () => {
     loginWithRedirect({
-      redirectUri: 'http://localhost:3000/Initialize', // Update with your desired URL
+      redirectUri: 'https://dawg-squadd.vercel.app/Initialize', // Update with your desired URL
     });
   };
 
