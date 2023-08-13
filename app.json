@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "b8c48581-eabd-4a71-bab5-a5f66ae8f461"
+      }
+    },
+    "android": {
+      "package": "com.jackerrip.ghostsquad"
+    }
+  }
+}
