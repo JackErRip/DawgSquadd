@@ -15,11 +15,13 @@
 .Homepage-header {
     background-color: rgb(39, 55, 80);
     border-radius: 20px; 
-    width: 410px;
+    width: 415px;
 }
 
 .H1-translate {
     margin-left: 4.5%;
+    
+    font-size: 200%;
 }
 
 .youtube-border {
