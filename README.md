@@ -42,7 +42,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Auth0 Note
 
-Everytime when there is a "Commited Change" You must change the url of **https://localhost:3000** to **https://dawg-squad.vercel.app**
+Everytime when there is a "Commited Change" You must change the url of **"https://localhost:3000"** to **"https://dawg-squad.vercel.app"**
 
 
 ## Learn More
